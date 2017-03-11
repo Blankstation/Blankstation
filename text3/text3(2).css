@@ -1,0 +1,48 @@
+.first{
+    border: 1px solid #999;
+    width: 1200px;
+    height: 500px;
+    padding: 20px;
+    margin: 0 2%;
+    background-color: #eee;
+}
+.one{
+    border:1px solid #999;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+
+}
+.one img{
+    border:1px solid #999;
+    position: relative;left: 10px;top:8px;
+    width: 80px;
+    height: 80px;
+}
+.one span{
+    position: relative;left: 10px;top:-50px;
+}
+.two{
+    border:1px solid #999;
+    position: absolute;left: 280px;
+    width: auto;
+    height: 400px;
+    background-color:white;
+}
+.three{
+    border:1px solid #999;
+    position: absolute;right:130px;
+    width: 120px;
+    height: 440px;
+    background-color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.three img{
+    border:1px solid #999;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
