@@ -1,0 +1,97 @@
+body {
+    background: silver;
+}
+.a{
+    background-color: dimgrey;
+    height: 4em;
+}
+.a img{
+    height: 4em;
+    float:left;
+    margin-right: 50%;
+}
+.a a{
+    color: white;
+    text-decoration:none;
+}
+/*div.a li{display:inline;color: white;position:relative;left: 60%;}*/
+.a li{
+    float: left;
+    padding-right:20px;
+    margin-top: 20px;
+}
+.a .four{
+    color: #9D9A9A;
+}
+.b{
+    background: white;
+    height: 850px;
+    margin:2em  5%;
+    padding: 1em;
+}
+.c{
+    background: white;
+    height: 400px;
+    margin:2em  5%;
+    padding: 1em;
+}
+.c div{
+    border:1px solid silver;
+    width:100px;
+    margin-left:3em;
+    float: left;
+}
+.c img{
+    width: 80px;
+    height: 80px;
+}
+.c span{
+    margin-left: 0em;
+}
+h2,.b span{
+    color: #BBBBBB;
+}
+h3:before{
+    content: "|" ;
+    color: #BBBBBB;
+}
+table{
+    width: 96%;
+}
+form div{
+   margin-left: 5%;
+}
+input[type="submit"]{
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 600;font-size: medium;
+    text-align: center;
+    width: 96%;height: 3em;
+    border-radius:20px ;
+}
+input{
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+form span{
+    margin-left: 5%;
+}
+.d{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 5em;
+    position: absolute;top: 3285px;
+}
+.d span{
+    font-size: large;
+    position: relative;top:2em;left:45%; }
+.one{
+    float: left;
+    width: 70%;
+    border-right:20px solid silver;
+}
+.two{
+    float: left;
+    width: 25%;
+}
