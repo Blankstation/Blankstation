@@ -13,6 +13,7 @@ function Num(){
         }
     }
     btn[1].onclick=function (){
+        alert("确认删除数字："+lilist[0].innerHTML);
         lilist[0].remove();
     }
     btn[2].onclick=function(){
@@ -21,6 +22,7 @@ function Num(){
         insertAfter(addLi,list.lastChild);
     }
     btn[3].onclick=function () {
+        alert("确认删除数字："+lilist[lilist.length-1].innerHTML);
         lilist[lilist.length-1].remove();
     }
 }
